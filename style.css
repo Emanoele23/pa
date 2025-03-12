@@ -129,6 +129,7 @@ input, select {
    
 }
 .link-cadastrar {
+<<<<<<< HEAD
     display: flex;              
     justify-content: center;     
     align-items: center;         
@@ -138,6 +139,17 @@ input, select {
     background-color: #D22A2A;
     color: rgb(0, 0, 0);
     text-align: center;         
+=======
+    display: flex;               /* Flexbox para centralizar o texto */
+    justify-content: center;     /* Alinha o texto no centro horizontalmente */
+    align-items: center;         /* Alinha o texto no centro verticalmente */
+    width: 200px;                /* Ajuste a largura conforme necessário */
+    height: 50px;                /* Ajuste a altura conforme necessário */
+    padding: 10px;               /* Espaçamento interno */
+    background-color: #D22A2A;
+    color: rgb(0, 0, 0);
+    text-align: center;          /* Centraliza o texto */
+>>>>>>> 7e1587e436a8bd1ef5e3c194ddb37834b27e5953
     text-decoration: none;
     border-radius: 20px;
     cursor: pointer;
@@ -147,7 +159,11 @@ input, select {
     position: absolute;
     right: 20px;
     top: 480px;
+<<<<<<< HEAD
     box-sizing: border-box;      
+=======
+    box-sizing: border-box;      /* Certifique-se de que padding não afeta o tamanho final */
+>>>>>>> 7e1587e436a8bd1ef5e3c194ddb37834b27e5953
 }
 
 .link-cadastrar:hover {
@@ -217,13 +233,18 @@ input, select {
     
 }
 p{
+<<<<<<< HEAD
     font-size:40px;
+=======
+    font-size:50px;
+>>>>>>> 7e1587e436a8bd1ef5e3c194ddb37834b27e5953
     color: #ffff;
     margin-bottom: 5px;
 }
 #sucesso{
     font-size:20px;
 }
+<<<<<<< HEAD
 #Sair{
     position: absolute;
     top: 380px;
@@ -257,12 +278,25 @@ p{
     height: 50px;                
     padding: 10px;    
     left: 770px;
+=======
+#sair{
+    position: absolute;
+    top: 380px;
+    width: 100px;                /* Ajuste a largura conforme necessário */
+    height: 50px;                /* Ajuste a altura conforme necessário */
+    padding: 10px;    
+    left: 470px;
+>>>>>>> 7e1587e436a8bd1ef5e3c194ddb37834b27e5953
     align-items: center;
     background-color: #D22A2A;
     color: rgb(0, 0, 0);
     border: 2px solid #000000;
     border-radius: 20px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7e1587e436a8bd1ef5e3c194ddb37834b27e5953
 #prof{
     color: #000000;
     font-size: medium;
@@ -272,7 +306,11 @@ p{
     width: 80%;
     max-width: 800px;
     margin: 50px auto;
+<<<<<<< HEAD
     flex-direction: column; 
+=======
+    flex-direction: column; /* Alinha as abas verticalmente */
+>>>>>>> 7e1587e436a8bd1ef5e3c194ddb37834b27e5953
     gap: 25px;
 }
 
