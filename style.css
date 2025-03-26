@@ -54,6 +54,7 @@
     position: relative;
     left: 150px;
     top: -20px;
+    font-size: 25px;
 }
 #enviar {
     width: 200px;                
